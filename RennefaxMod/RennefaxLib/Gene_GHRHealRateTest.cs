@@ -24,15 +24,17 @@ public class Gene_GHRHealRateTest : Gene_ReadsPowerLevel
         Log.Message(healHediffSeverity);
         if (power > 0)
         {
-            pawn.health.hediffSet.GetFirstHediffOfDef(GHRDefOf.GHRTestHealHediff);
+            Hediff healHediff = pawn.health.hediffSet.GetFirstHediffOfDef(GHRDefOf.GHRTestHealHediff);
+
+            if (healHediff == null)
             {
-                Hediff healHediff = HediffMaker.MakeHediff(GHRDefOf.GHRTestHealHediff, pawn);
-                healHediff.Severity = healHediffSeverity; // Sets severity based on power level - higher = better healing
+                healHediff = HediffMaker.MakeHediff(GHRDefOf.GHRTestHealHediff, pawn);
                 pawn.health.AddHediff(healHediff);
-                pawn.health.hediffSet.GetFirstHediffOfDef(GHRDefOf.GHRTestHealHediff);
-                healHediff.Severity = healHediffSeverity;
-                Log.Message(healHediffSeverity);
             }
+
+            healHediff.Severity = healHediffSeverity; // Sets severity based on power level - higher = better healing
+            Log.Message($"actual severity: {healHediffSeverity} - severity set to hediff: {healHediff.Severity}");
         }
     }
+
 }

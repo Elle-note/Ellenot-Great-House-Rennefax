@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RENNEFAX MOD WIP\\RennefaxMod\\RennefaxLib\\GreatHouseRennefax.csproj": {}
+    "C:\\Users\\mrdov\\OneDrive\\Documents\\RimworldMods\\Great-House-Rennefax\\RennefaxMod\\RennefaxLib\\GreatHouseRennefax.csproj": {}
   },
   "projects": {
-    "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RENNEFAX MOD WIP\\RennefaxMod\\RennefaxLib\\GreatHouseRennefax.csproj": {
+    "C:\\Users\\mrdov\\OneDrive\\Documents\\RimworldMods\\Great-House-Rennefax\\RennefaxMod\\RennefaxLib\\GreatHouseRennefax.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RENNEFAX MOD WIP\\RennefaxMod\\RennefaxLib\\GreatHouseRennefax.csproj",
+        "projectUniqueName": "C:\\Users\\mrdov\\OneDrive\\Documents\\RimworldMods\\Great-House-Rennefax\\RennefaxMod\\RennefaxLib\\GreatHouseRennefax.csproj",
         "projectName": "GreatHouseRennefax",
-        "projectPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RENNEFAX MOD WIP\\RennefaxMod\\RennefaxLib\\GreatHouseRennefax.csproj",
+        "projectPath": "C:\\Users\\mrdov\\OneDrive\\Documents\\RimworldMods\\Great-House-Rennefax\\RennefaxMod\\RennefaxLib\\GreatHouseRennefax.csproj",
         "packagesPath": "C:\\Users\\mrdov\\.nuget\\packages\\",
-        "outputPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RENNEFAX MOD WIP\\RennefaxMod\\RennefaxLib\\obj\\",
+        "outputPath": "C:\\Users\\mrdov\\OneDrive\\Documents\\RimworldMods\\Great-House-Rennefax\\RennefaxMod\\RennefaxLib\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [

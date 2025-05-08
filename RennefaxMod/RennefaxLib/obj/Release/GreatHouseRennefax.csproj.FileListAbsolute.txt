@@ -7,3 +7,14 @@ C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RENNEFAX MOD WIP\Ren
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RENNEFAX MOD WIP\RennefaxMod\RennefaxLib\obj\Release\GreatHou.61DC5115.Up2Date
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RENNEFAX MOD WIP\RennefaxMod\RennefaxLib\obj\Release\GreatHouseRennefax.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RENNEFAX MOD WIP\RennefaxMod\RennefaxLib\obj\Release\GreatHouseRennefax.pdb
+C:\Users\mrdov\OneDrive\Documents\RimworldMods\Great-House-Rennefax\RennefaxMod\RennefaxLib\obj\Release\GreatHouseRennefax.csproj.AssemblyReference.cache
+C:\Users\mrdov\OneDrive\Documents\RimworldMods\Great-House-Rennefax\RennefaxMod\RennefaxLib\obj\Release\GreatHouseRennefax.csproj.CoreCompileInputs.cache
+C:\Users\mrdov\OneDrive\Documents\RimworldMods\Great-House-Rennefax\RennefaxMod\RennefaxLib\obj\Release\GreatHouseRennefax.dll
+C:\Users\mrdov\OneDrive\Documents\RimworldMods\Great-House-Rennefax\RennefaxMod\RennefaxLib\obj\Release\GreatHouseRennefax.pdb
+C:\Users\mrdov\OneDrive\Documents\RimworldMods\Great-House-Rennefax\RennefaxMod\RennefaxLib\bin\Release\GreatHouseRennefax.dll
+C:\Users\mrdov\OneDrive\Documents\RimworldMods\Great-House-Rennefax\RennefaxMod\RennefaxLib\bin\Release\GreatHouseRennefax.pdb
+C:\Users\mrdov\OneDrive\Documents\RimworldMods\Great-House-Rennefax\RennefaxMod\RennefaxLib\bin\Release\MVCF.dll
+C:\Users\mrdov\OneDrive\Documents\RimworldMods\Great-House-Rennefax\RennefaxMod\RennefaxLib\bin\Release\VFECore.dll
+C:\Users\mrdov\OneDrive\Documents\RimworldMods\Great-House-Rennefax\RennefaxMod\RennefaxLib\obj\Release\GreatHou.61DC5115.Up2Date
+C:\Users\mrdov\OneDrive\Documents\RimworldMods\Great-House-Rennefax\Assemblies\GreatHouseRennefax.dll
+C:\Users\mrdov\OneDrive\Documents\RimworldMods\Great-House-Rennefax\Assemblies\GreatHouseRennefax.pdb
