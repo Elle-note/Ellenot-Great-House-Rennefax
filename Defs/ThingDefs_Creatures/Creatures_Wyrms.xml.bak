@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<MVCF.ModDef>
+	<defName>MVCF_GHR</defName>
+	<label>Great House Rennefax</label>
+	<description>Adds special attacks for the Wyrm bosses.</description>
+	<ActivateFeatures>
+		<li>RangedAnimals</li>
+		<li>HediffVerbs</li>
+		<li>IntegratedToggle</li>
+	</ActivateFeatures>
+</MVCF.ModDef>
+
+   <ThingDef ParentName="AnimalThingBase">
+    <defName>GHRLesserWyrm</defName>
+    <label>Lesser Wyrm</label>
+    <description>Do not let its name deceive you; These incredible beasts are an immediate and exceedingly dangerous threat. A primary source of wyrmsblood for occult Rennefax rituals, the Lesser Wyrms command respect despite their low status in the hierarchy of Wyrms.
+	
+	A Lesser Wyrm will attack with sharp, hooked claws and a battering tail, alongside serrated fangs and impaling horns. At a distance it will utilize blasts of white, psychic fire! Beware, as these eruptions will cause massively increased psychic heat gain in those struck (not yet implemented). Do not think melee is safe, either; Once per conflict, the Wyrm will utilize a maddening pulse that drives all nearby attackers insane, turning friend on friend so it may wreak havoc as it pleases.</description>
+    <statBases>
+      <MoveSpeed>5</MoveSpeed>
+      <MarketValue>30000</MarketValue>
+      <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+	  <ComfyTemperatureMax>190</ComfyTemperatureMax>
+	  <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
+	  <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+    </statBases>
+	<comps>
+	<li Class="MVCF.Comps.CompProperties_VerbProps">
+        <compClass>MVCF.Comps.Comp_VerbProps</compClass>
+        <verbProps>
+          <li>
+            <label>Psychic Fireblast</label>
+            <description>A mind-searingly hot ball of white fire.</description>
+            <canBeToggled>true</canBeToggled>
+            <separateToggle>false</separateToggle>
+            <comps>
+              <li Class="MVCF.VerbComps.VerbCompProperties_Cooldown">
+              <compClass>MVCF.VerbComps.VerbComp_Cooldown</compClass>
+              <cooldownTime>10</cooldownTime> <!--Time in seconds-->
+              </li>
+            </comps>
+          </li>
+		</verbProps>
+	  </li>
+    </comps>
+    <tools>
+      <li>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RearLeftClaws</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>RearRightClaws</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>20</power>
+        <cooldownTime>2.6</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>10</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+	   <li>
+        <label>horns</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>WyrmHorns</linkedBodyPartsGroup>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+	  <li>
+        <label>tail</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>15</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Tail</linkedBodyPartsGroup>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+	<verbs>
+      <li>
+		<label>Fireblast</label>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GHR_Projectile_WyrmFire</defaultProjectile>
+        <warmupTime>2</warmupTime>
+        <range>23.9</range>
+        <forcedMissRadius>1.5</forcedMissRadius>
+        <burstShotCount>3</burstShotCount>
+		<ticksBetweenBurstShots>30</ticksBetweenBurstShots>
+        <soundCast>Shot_HellsphereCannonGun</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>14</muzzleFlashScale>
+		<defaultCooldownTime>2</defaultCooldownTime>
+		<commonality>0.5</commonality>
+      </li>
+    </verbs>
+    <race>
+      <body>GHRLesserWyrm</body>
+      <baseHungerRate>1.0</baseHungerRate>
+      <baseBodySize>6</baseBodySize>
+      <baseHealthScale>5</baseHealthScale>
+      <foodType>CarnivoreAnimal</foodType>
+	  <predator>true</predator>
+      <leatherDef>Leather_LesserWyrm</leatherDef>
+      <gestationPeriodDays>55</gestationPeriodDays>
+      <wildness>5</wildness>
+      <trainability>Advanced</trainability>
+      <nuzzleMtbHours>120</nuzzleMtbHours>
+      <lifeExpectancy>500</lifeExpectancy>
+      <manhunterOnTameFailChance>1</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>1</manhunterOnDamageChance>
+	  <wildBiomes>
+	  </wildBiomes>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>1.0</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>3.0</minAge>
+          <soundWounded>Pawn_Thrumbo_Pain</soundWounded>
+          <soundDeath>Pawn_Thrumbo_Death</soundDeath>
+          <soundCall>Pawn_Thrumbo_Call</soundCall>
+          <soundAngry>Pawn_Thrumbo_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+	<tradeTags>
+			<li>AnimalRare</li>
+			<li>AnimalFighter</li>
+		</tradeTags>
+  </ThingDef>
+  
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>GHRLesserWyrmKind</defName>
+    <label>LesserWyrm</label>
+    <race>GHRLesserWyrm</race>
+    <combatPower>1000</combatPower>
+	<isBoss>true</isBoss>
+    <lifeStages>
+	  <li>
+        <labelMale>Lesser Wyrm</labelMale>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/LesserWyrm/LesserWyrm</texPath>
+          <drawSize>13.0</drawSize>
+        </bodyGraphicData>
+		<labelFemale>Lesser Wyrm</labelFemale>
+        <femaleGraphicData>
+          <texPath>Things/Pawn/Animal/LesserWyrm/LesserWyrm</texPath>
+          <drawSize>12.0</drawSize>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/LesserWyrm/LesserWyrm</texPath>
+          <drawSize>3.2</drawSize>
+        </dessicatedBodyGraphicData>
+        <femaleDessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/LesserWyrm/LesserWyrm</texPath>
+          <drawSize>3.2</drawSize>
+        </femaleDessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+	<!--Leather Def-->
+    <ThingDef ParentName="LeatherBase">
+		<defName>Leather_LesserWyrm</defName>
+		<label>Lesser Wyrm leather</label>
+		<description>The tough, sleek scales and hide of a Lesser Wyrm, rent from its body.</description>
+		<graphicData>
+			<color>(102,17,17)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>130</MaxHitPoints>
+			<DeteriorationRate>1.2</DeteriorationRate>
+			<Mass>0.15</Mass>
+			<Flammability>0</Flammability>
+			<MarketValue>30</MarketValue>
+			<StuffPower_Armor_Sharp>1.22</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0.94</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>1.20</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>28</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>35</StuffPower_Insulation_Heat>
+		</statBases>
+		<thingCategories>
+			<li>Textiles</li>
+		</thingCategories>
+		<stuffProps>
+			<color>(102,17,17)</color>
+			<commonality>0.001</commonality>
+			<statOffsets>
+				<Beauty>24</Beauty>
+			</statOffsets>
+			<statFactors>
+				<MaxHitPoints>2.2</MaxHitPoints>
+				<Beauty>10</Beauty>
+				<Flammability>0.3</Flammability>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+</Defs>

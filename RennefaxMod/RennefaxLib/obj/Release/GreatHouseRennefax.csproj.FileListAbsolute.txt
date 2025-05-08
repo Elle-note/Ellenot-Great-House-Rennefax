@@ -1,0 +1,9 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RENNEFAX MOD WIP\RennefaxMod\RennefaxLib\obj\Release\GreatHouseRennefax.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RENNEFAX MOD WIP\RennefaxMod\RennefaxLib\obj\Release\GreatHouseRennefax.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RENNEFAX MOD WIP\RennefaxMod\RennefaxLib\bin\Release\GreatHouseRennefax.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RENNEFAX MOD WIP\RennefaxMod\RennefaxLib\bin\Release\GreatHouseRennefax.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RENNEFAX MOD WIP\RennefaxMod\RennefaxLib\bin\Release\MVCF.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RENNEFAX MOD WIP\RennefaxMod\RennefaxLib\bin\Release\VFECore.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RENNEFAX MOD WIP\RennefaxMod\RennefaxLib\obj\Release\GreatHou.61DC5115.Up2Date
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RENNEFAX MOD WIP\RennefaxMod\RennefaxLib\obj\Release\GreatHouseRennefax.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\RENNEFAX MOD WIP\RennefaxMod\RennefaxLib\obj\Release\GreatHouseRennefax.pdb

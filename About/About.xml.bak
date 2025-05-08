@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Valyrian Steel</name>
+    <author>Ellenot (Hauki)</author>
+    <packageId>Ellenot.ValyrianSteel</packageId>
+    <supportedVersions>
+        <li>1.4</li>
+		<li>1.5</li>
+    </supportedVersions>
+
+    <description>A simple mod that adds Valyrian steel, a high-grade material meant to make the highest-tier weapons and armor. Inspired by the material of the same name in Game of Thrones.
+        
+A batch of 10 Valyrian steel requires, in total: 100 steel, 50 uranium, 20 gold, 3 human hearts, and 2500 work. Crafted at the Smithy.
+
+It can very rarely spawn in veins of 1 to 3, yielding one unit of Valyrian steel per.
+
+Originally intended for personal use. Probably unbalanced, use at your own risk. Willing to update for balance and tweaks in the future. Open to suggestions.
+
+    </description>
+</ModMetaData>

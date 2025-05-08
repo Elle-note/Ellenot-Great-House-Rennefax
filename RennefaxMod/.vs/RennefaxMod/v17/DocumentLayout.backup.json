@@ -1,0 +1,172 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RENNEFAX MOD WIP\\RennefaxMod\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{47CC21C5-7BA7-4846-A452-671476DFBE44}|RennefaxLib\\GreatHouseRennefax.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RENNEFAX MOD WIP\\RennefaxMod\\rennefaxlib\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CC21C5-7BA7-4846-A452-671476DFBE44}|RennefaxLib\\GreatHouseRennefax.csproj|solutionrelative:rennefaxlib\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CC21C5-7BA7-4846-A452-671476DFBE44}|RennefaxLib\\GreatHouseRennefax.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\rennefax mod wip\\rennefaxmod\\rennefaxlib\\thingdefhelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CC21C5-7BA7-4846-A452-671476DFBE44}|RennefaxLib\\GreatHouseRennefax.csproj|solutionrelative:rennefaxlib\\thingdefhelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CC21C5-7BA7-4846-A452-671476DFBE44}|RennefaxLib\\GreatHouseRennefax.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\rennefax mod wip\\rennefaxmod\\rennefaxlib\\gene_ghrhealratetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CC21C5-7BA7-4846-A452-671476DFBE44}|RennefaxLib\\GreatHouseRennefax.csproj|solutionrelative:rennefaxlib\\gene_ghrhealratetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RENNEFAX MOD WIP\\Defs\\ThingDefs_Creatures\\Creatures_Wyrms.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|GreatHouseRennefax||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CC21C5-7BA7-4846-A452-671476DFBE44}|RennefaxLib\\RennefaxLib.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RENNEFAX MOD WIP\\RennefaxMod\\rennefaxlib\\thingdefhelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47CC21C5-7BA7-4846-A452-671476DFBE44}|RennefaxLib\\RennefaxLib.csproj|solutionrelative:rennefaxlib\\thingdefhelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RENNEFAX MOD WIP\\Defs\\ThingDefs_Buildings\\Effigy.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RENNEFAX MOD WIP\\Defs\\Misc\\Projectiles.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Source\\Verse\\ThingComps\\CompLifespan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47CC21C5-7BA7-4846-A452-671476DFBE44}|RennefaxLib\\GreatHouseRennefax.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\rennefax mod wip\\rennefaxmod\\rennefaxlib\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 254,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Gene_GHRHealRateTest.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RENNEFAX MOD WIP\\RennefaxMod\\RennefaxLib\\Gene_GHRHealRateTest.cs",
+              "RelativeDocumentMoniker": "RennefaxLib\\Gene_GHRHealRateTest.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RENNEFAX MOD WIP\\RennefaxMod\\RennefaxLib\\Gene_GHRHealRateTest.cs",
+              "RelativeToolTip": "RennefaxLib\\Gene_GHRHealRateTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T02:16:53.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RENNEFAX MOD WIP\\RennefaxMod\\RennefaxLib\\Class1.cs",
+              "RelativeDocumentMoniker": "RennefaxLib\\Class1.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RENNEFAX MOD WIP\\RennefaxMod\\RennefaxLib\\Class1.cs",
+              "RelativeToolTip": "RennefaxLib\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T07:56:35.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ThingDefHelpers.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RENNEFAX MOD WIP\\RennefaxMod\\RennefaxLib\\ThingDefHelpers.cs",
+              "RelativeDocumentMoniker": "RennefaxLib\\ThingDefHelpers.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RENNEFAX MOD WIP\\RennefaxMod\\RennefaxLib\\ThingDefHelpers.cs",
+              "RelativeToolTip": "RennefaxLib\\ThingDefHelpers.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T01:33:47.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CompLifespan.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Source\\Verse\\ThingComps\\CompLifespan.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Source\\Verse\\ThingComps\\CompLifespan.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Source\\Verse\\ThingComps\\CompLifespan.cs",
+              "RelativeToolTip": "..\\..\\..\\Source\\Verse\\ThingComps\\CompLifespan.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T19:51:45.227Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ThingDefHelpers.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RENNEFAX MOD WIP\\RennefaxMod\\RennefaxLib\\ThingDefHelpers.cs",
+              "RelativeDocumentMoniker": "RennefaxLib\\ThingDefHelpers.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RENNEFAX MOD WIP\\RennefaxMod\\RennefaxLib\\ThingDefHelpers.cs",
+              "RelativeToolTip": "RennefaxLib\\ThingDefHelpers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T10:40:41.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GreatHouseRennefax",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RENNEFAX MOD WIP\\RennefaxMod\\RennefaxLib\\GreatHouseRennefax.csproj",
+              "RelativeDocumentMoniker": "RennefaxLib\\GreatHouseRennefax.csproj",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RENNEFAX MOD WIP\\RennefaxMod\\RennefaxLib\\GreatHouseRennefax.csproj",
+              "RelativeToolTip": "RennefaxLib\\GreatHouseRennefax.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-08T08:10:35.962Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 146,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Creatures_Wyrms.xml",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RENNEFAX MOD WIP\\Defs\\ThingDefs_Creatures\\Creatures_Wyrms.xml",
+              "RelativeDocumentMoniker": "..\\Defs\\ThingDefs_Creatures\\Creatures_Wyrms.xml",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RENNEFAX MOD WIP\\Defs\\ThingDefs_Creatures\\Creatures_Wyrms.xml",
+              "RelativeToolTip": "..\\Defs\\ThingDefs_Creatures\\Creatures_Wyrms.xml",
+              "ViewState": "AgIAAMwAAAAAAAAAAAAmwNwAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-05-05T02:46:11.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Projectiles.xml",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RENNEFAX MOD WIP\\Defs\\Misc\\Projectiles.xml",
+              "RelativeDocumentMoniker": "..\\Defs\\Misc\\Projectiles.xml",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RENNEFAX MOD WIP\\Defs\\Misc\\Projectiles.xml",
+              "RelativeToolTip": "..\\Defs\\Misc\\Projectiles.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-05-05T02:45:59.86Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Effigy.xml",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RENNEFAX MOD WIP\\Defs\\ThingDefs_Buildings\\Effigy.xml",
+              "RelativeDocumentMoniker": "..\\Defs\\ThingDefs_Buildings\\Effigy.xml",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RENNEFAX MOD WIP\\Defs\\ThingDefs_Buildings\\Effigy.xml",
+              "RelativeToolTip": "..\\Defs\\ThingDefs_Buildings\\Effigy.xml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAABYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-05-05T02:45:14.29Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--><Defs>
+  
+  <ThingDef Name="EffigyBase" ParentName="BuildingBase" Abstract="True">
+    <thingClass>Building_Art</thingClass>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <useHitPoints>true</useHitPoints>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>90</MaxHitPoints>
+      <Mass>3</Mass>
+      <Beauty>10</Beauty>
+      <Flammability>0</Flammability>
+      <MeditationFocusStrength>1.0</MeditationFocusStrength>
+    </statBases>
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+		<li>
+			<compClass>EffigyComp</compClass>
+		</li>
+      <li Class="CompProperties_MeditationFocus">
+        <statDef>MeditationFocusStrength</statDef>
+        <focusTypes>
+          <li>Morbid</li>
+		  <li>Artistic</li>
+        </focusTypes>
+        <offsets>
+          <li Class="FocusStrengthOffset_Quality">
+            <curve>
+              <points>
+                <li>(0,0.12)</li> <!awful>
+                <li>(1,0.16)</li> <!-poor>
+                <li>(2,0.20)</li> <!-normal>
+                <li>(3,0.22)</li> <!-good>
+                <li>(4,0.24)</li> <!-excellent>
+                <li>(5,0.26)</li> <!-masterwork>
+                <li>(6,0.28)</li> <!-legendary>
+              </points>
+            </curve>
+          </li>
+          <li Class="FocusStrengthOffset_BuildingDefsWithQuality">
+            <defs>
+              <li>SculptureSmall</li>
+              <li>SculptureLarge</li>
+              <li>SculptureGrand</li>
+            </defs>
+            <radius>9.9</radius>
+            <maxBuildings>8</maxBuildings>
+            <focusPerQuality>
+              <points>
+                <li>(0,0.0)</li> <awful>
+                <li>(1,0.0)</li> <!poor>
+                <li>(2,0.01)</li> <!normal>
+                <li>(3,0.01)</li> <!good>
+                <li>(4,0.01)</li> <!excellent>
+                <li>(5,0.02)</li> <!masterwork>
+                <li>(6,0.02)</li> <!legendary>
+              </points>
+            </focusPerQuality>
+            <explanationKey>MeditationFocusPerSculpture</explanationKey>
+            <explanationKeyAbstract>MeditationFocusPerSculptureAbstract</explanationKeyAbstract>
+          </li>
+        </offsets>
+      </li>
+    </comps>
+    <inspectorTabs>
+      <li>ITab_Art</li>
+    </inspectorTabs>
+    <ritualFocus>
+      <spectateDistance>2</spectateDistance>
+      <allowedSpectateSides>Down</allowedSpectateSides>
+    </ritualFocus>
+  </ThingDef>
+  
+  <ThingDef ParentName="EffigyBase">
+  <defName>RenEffigy</defName>
+    <label>Raemat Effigy</label>
+    <description>What remains of a pawn overtaken by the wyrmwear.</description>
+    <graphicData>
+      <graphicClass>Graphic_Random</graphicClass>
+      <texPath>Things/Building/Art/SculptureSmall</texPath>
+    </graphicData>
+    <fillPercent>0.35</fillPercent>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>90</MaxHitPoints>
+      <Mass>3</Mass>
+      <Beauty>50</Beauty>
+      <WorkToMake>18000</WorkToMake>
+      <StyleDominance MayRequire="Ludeon.RimWorld.Ideology">10</StyleDominance>
+    </statBases>
+    <stuffCategories>
+      <li>Stony</li>
+    </stuffCategories>
+    <costStuffCount>50</costStuffCount>
+  </ThingDef>
+
+	<JobDef>
+		<defName>PrayAtStatue</defName>
+		<driverClass>JobDriver_PrayAtStatue</driverClass>
+		<reportString>praying at statue.</reportString>
+		<suspendable>false</suspendable>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+  
+ </Defs><-->

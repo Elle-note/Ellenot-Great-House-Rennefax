@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+    <identifier>Ellenot_GreatHouseRennefax</identifier>
+    <version>1.0.0</version>
+    <dependencies>
+        
+    </dependencies>
+    <incompatibleWith>
+        
+    </incompatibleWith>
+    <loadBefore>
+        
+    </loadBefore>
+    <loadAfter>
+        
+    </loadAfter>
+    <suggests>
+        <li>Mlie.StuffMassMatters_copy</li>
+    </suggests>
+    <showCrossPromotions>true</showCrossPromotions>
+    <manifestUri></manifestUri>
+    <downloadUri></downloadUri>
+</Manifest>

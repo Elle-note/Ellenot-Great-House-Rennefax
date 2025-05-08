@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+   <AbilityDef ParentName="PsycastBase">
+    <defName>WyrmBerserkPulse</defName>
+    <label>berserk pulse</label>
+    <description>Channel your maddening charisma and cause all pawns within three cells to go insane.</description>
+    <level>6</level>
+    <iconPath>UI/Abilities/BerserkPulse</iconPath>
+    <writeCombatLog>True</writeCombatLog>
+    <hotKey>Misc12</hotKey>
+    <statBases>
+      <Ability_EntropyGain>65</Ability_EntropyGain>
+      <Ability_PsyfocusCost>0.06</Ability_PsyfocusCost>
+      <Ability_Duration>10</Ability_Duration>
+      <Ability_EffectRadius>3</Ability_EffectRadius>
+    </statBases>
+    <verbProperties>
+      <warmupTime>1</warmupTime>
+      <range>1</range>
+      <targetParams>
+        <canTargetSelf>True</canTargetSelf>
+        <canTargetLocations>false</canTargetLocations>
+        <canTargetAnimals>false</canTargetAnimals>
+      </targetParams>
+    </verbProperties>
+    <comps>
+      <li Class = "CompProperties_AbilityGiveMentalState">
+        <compClass>CompAbilityEffect_GiveMentalState</compClass>
+        <stateDef>Berserk</stateDef>
+        <stateDefForMechs>BerserkMechanoid</stateDefForMechs>
+        <psychic>True</psychic>
+        <durationMultiplier>PsychicSensitivity</durationMultiplier>
+        <canTargetBosses>false</canTargetBosses>
+      </li>
+      <li Class="CompProperties_AbilityFleckOnTarget">
+        <fleckDef>PsycastPsychicEffect</fleckDef>
+      </li>
+    </comps>
+  </AbilityDef> 
+
+</Defs>

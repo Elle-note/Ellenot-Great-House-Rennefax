@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+<!-- Damage Defs! All in one for now -->
+  <DamageDef Name="GHR_PetrifyBase" Abstract="True">
+    <impactSoundType>Bullet</impactSoundType>
+    <externalViolence>false</externalViolence>
+    <harmsHealth>true</harmsHealth>
+    <makesBlood>false</makesBlood>
+    <armorCategory>Heat</armorCategory>
+    <overkillPctToDestroyPart>0~0.1</overkillPctToDestroyPart>
+    <isRanged>false</isRanged>
+    <makesAnimalsFlee>false</makesAnimalsFlee>
+  </DamageDef>
+  
+  <DamageDef ParentName="GHR_PetrifyBase">
+    <defName>GHR_Dmg_Petrify</defName>
+    <label>wyrmwear petrification</label>
+    <workerClass>DamageWorker_AddInjury</workerClass>
+    <deathMessage>{0} has fallen to the wyrmwear.</deathMessage>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Bullet</impactSoundType>
+    <armorCategory>Heat</armorCategory>
+    <hediff>GHR_Petrification</hediff>
+  </DamageDef>
+  
+  <!-- Hediff defs! -->
+
+  <HediffDef Name="WyrmwearBase" Abstract="True">
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.8, 0.8, 0.35)</defaultLabelColor>
+    <initialSeverity>0.0001</initialSeverity>
+    <chronic>true</chronic>
+  </HediffDef>
+  <HediffDef Name="GHR_RenGeneBase" Abstract="True">
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.8, 0.8, 0.35)</defaultLabelColor>
+    <initialSeverity>0.0001</initialSeverity>
+  </HediffDef>
+  
+  <HediffDef ParentName="WyrmwearBase">
+    <defName>wyrmWearHediff</defName>
+    <label>wyrmwear</label>
+    <labelNoun>wyrmwear</labelNoun>
+    <description>A natural side effect of House Rennefax's grand experiments with furthering their evolution. It is known as the struggle of the human essence to merge and harmonize with that of the wyrm; In those incapable or unworthy, their humanity is gradually burned away by the power of their Wyrmsheart, slowly twisting them into pitiful, corrupted reptilian forms. Once all of their being is gone, they will petrify, becoming a Raemat Effigy and effectively dying.
+	/nWyrmwear is a chronic condition that applies growing maluses to consciousness as it progresses. It progresses respectively slower depending on the Purity gene of the bearer. Pitiful Purity will progress wyrmwear the fastest, Adapted the slowest. Wyrmwear is nonexistent in pawns with Naturalized or greater Purity.</description>
+    <makesSickThought>true</makesSickThought>
+    <lethalSeverity>1.02</lethalSeverity>
+    <tendable>false</tendable>
+	<minSeverity>.01</minSeverity>
+	<maxSeverity>1.02</maxSeverity>
+    <comps>
+    </comps>
+    <stages>
+      <li>
+        <label>minor</label>
+        <painOffset>0.05</painOffset>
+      </li> 
+      <li>
+        <minSeverity>0.33</minSeverity>
+        <label>major</label>
+        <painOffset>0.08</painOffset>
+      </li>
+      <li>
+        <minSeverity>0.78</minSeverity>
+        <label>extreme</label>
+        <lifeThreatening>true</lifeThreatening>
+        <painOffset>0.12</painOffset>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>-0.1</offset>
+          </li>
+        </capMods>
+      </li>
+      <li>
+        <minSeverity>0.87</minSeverity>
+        <label>extreme</label>
+        <lifeThreatening>true</lifeThreatening>
+        <painOffset>0.85</painOffset>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <setMax>0.1</setMax>
+          </li>
+          <li>
+            <capacity>Breathing</capacity>
+            <offset>-0.05</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  
+  <HediffDef ParentName="InjuryBase" Name="PetrifyBase" Abstract="True">
+    <comps>
+    </comps>
+    <injuryProps>
+      <painPerSeverity>0.001</painPerSeverity>
+      <averagePainPerSeverityPermanent>0.002</averagePainPerSeverityPermanent>
+      <canMerge>true</canMerge>
+    </injuryProps>
+  </HediffDef>
+
+  <HediffDef ParentName="PetrifyBase">
+    <defName>GHR_Petrification</defName>
+    <label>petrification</label>
+    <labelNoun>a petrification</labelNoun>
+    <description>A solidified part of the body.</description>
+    <comps>
+      <li Class="HediffCompProperties_GetsPermanent">
+        <permanentLabel>partly petrified</permanentLabel>
+      </li>
+    </comps>
+    <injuryProps>
+      <destroyedLabel>Shattered</destroyedLabel>
+      <destroyedOutLabel>Crumbled</destroyedOutLabel>
+    </injuryProps>
+  </HediffDef>
+  
+  <HediffDef>
+    <defName>GHRTestHealHediff</defName>
+    <label>Test Healing Hediff</label>
+    <labelNoun>Test Healing Hediff</labelNoun>
+    <description>Test Healing Hediff</description>
+    <makesSickThought>false</makesSickThought>
+	<minSeverity>.1</minSeverity>
+	<maxSeverity>1</maxSeverity>
+    <comps>
+    </comps>
+    <stages>
+      <li>
+	    <minSeverity>0.1</minSeverity>
+        <label>Healing - Power level 1</label>
+        <statOffsets>
+		<InjuryHealingFactor>.7</InjuryHealingFactor>
+		</statOffsets>
+      </li> 
+      <li>
+	    <minSeverity>0.2</minSeverity>
+        <label>Healing - Power level 2</label>
+        <statOffsets>
+		<InjuryHealingFactor>.9</InjuryHealingFactor>
+		</statOffsets>
+      </li>
+      <li>
+	    <minSeverity>0.3</minSeverity>
+        <label>Healing - Power level 3</label>
+        <statOffsets>
+		<InjuryHealingFactor>1.05</InjuryHealingFactor>
+		</statOffsets>
+      </li>
+      <li>
+	    <minSeverity>0.4</minSeverity>
+        <label>Healing - Power level 4</label>
+        <statOffsets>
+		<InjuryHealingFactor>1.2</InjuryHealingFactor>
+		</statOffsets>
+      </li>
+      <li>
+	    <minSeverity>0.6</minSeverity>
+        <label>Healing - Power level 5</label>
+        <statOffsets>
+		<InjuryHealingFactor>1.5</InjuryHealingFactor>
+		</statOffsets>
+      </li>
+      <li>
+	    <minSeverity>0.9</minSeverity>
+        <label>Healing - Power level 6</label>
+        <statOffsets>
+		<InjuryHealingFactor>1.8</InjuryHealingFactor>
+		</statOffsets>
+      </li>
+      <li>
+	    <minSeverity>1</minSeverity>
+        <label>Healing - Power level 7</label>
+        <statOffsets>
+		<InjuryHealingFactor>2.2</InjuryHealingFactor>
+		</statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+</Defs>

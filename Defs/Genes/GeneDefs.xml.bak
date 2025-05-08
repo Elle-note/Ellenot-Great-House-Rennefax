@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<GeneDef Name="GHR_TestGeneBase" Abstract="True">
+		<biostatCpx>1</biostatCpx>
+		<modExtensions>
+			<li Class="GreatHouseRennefax.GeneExtensionPowerLevel">
+				<powerLevel>1</powerLevel>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GHR_TestGeneBase">
+		<defName>GHR_WyrmHeartGene</defName>
+		<geneClass>GreatHouseRennefax.Gene_PowerLevel</geneClass>
+		<label>Power level test gene</label>
+		<labelShortAdj>metabo-test</labelShortAdj>
+		<description>This gene adds the power level to be read.</description>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<hediffToWholeBody>wyrmWearHediff</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+	<GeneDef ParentName="GHR_TestGeneBase">
+		<defName>GHRHealRateTest</defName>
+		<geneClass>GreatHouseRennefax.Gene_GHRHealRateTest</geneClass>
+		<label>Healing test</label>
+		<labelShortAdj>metabo-test</labelShortAdj>
+		<description>This gene reads the power level to determine healing rate.</description>
+		<modExtensions>
+			<li Class="VanillaGenesExpanded.GeneExtension">
+				<hediffToWholeBody>GHRTestHealHediff</hediffToWholeBody>
+			</li>
+		</modExtensions>
+	</GeneDef>
+</Defs>

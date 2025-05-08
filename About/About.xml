@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Great House Rennefax</name>
+    <author>Ellenot (Hauki)</author>
+    <packageId>Ellenot.HouseRennefax</packageId>
+    <supportedVersions>
+		<li>1.5</li>
+    </supportedVersions>
+
+    <description>A more complex mod that adds Great House Rennefax and its occult bloodmagic, which you can use to upgrade your pawns and follow in their footsteps by infusing and embracing the blood of DRAGONS! </description>
+</ModMetaData>

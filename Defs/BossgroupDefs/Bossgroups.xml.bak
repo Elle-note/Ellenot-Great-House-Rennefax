@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <BossgroupDef Abstract="True" Name="RenBossgroup">
+    <quest>Bossgroup</quest>
+    <repeatWaveStartIndex>0</repeatWaveStartIndex>
+  </BossgroupDef>
+
+  <!-- Lesser Wyrm -->
+
+  <BossDef>
+    <defName>LesserWyrm</defName>
+    <kindDef>GHRLesserWyrm</kindDef>
+    <appearAfterTicks>7200000</appearAfterTicks><!-- 2 years -->
+  </BossDef>
+
+  <BossgroupDef ParentName="BaseBossgroup">
+    <defName>LesserWyrm</defName>
+    <boss>LesserWyrm</boss>
+    <waves>
+      <li> <!-- 0 -->
+        <bossCount>1</bossCount>
+        <escorts>
+          <Mech_Militor>3</Mech_Militor>
+        </escorts>
+      </li>
+    </waves>
+    <leaderDescription>The {LEADERKIND_label} employs a strong balance of powerful melee attacks and psychically-charged ranged attacks to batter and grind down foes. Melee attackers may find themselves subject to its maddening charisma, though this ability fizzles after its first use.</leaderDescription>
+    <rewardDef>DragonHeart</rewardDef>
+  </BossgroupDef>
+  
+ </Defs>

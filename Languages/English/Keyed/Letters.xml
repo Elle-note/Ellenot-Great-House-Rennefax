@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+  <LetterLabelBossgroupCallerLesserWyrmUnlocked>Summon {LEADER_label} possible</LetterLabelBossgroupCallerLesserWyrmUnlocked>
+  <LetterBossgroupCallerLesserWyrmUnlocked>You may pray with a pawn at a {PARENT_label} in an attempt to calm its corrupted spirit. This will summon a {LEADER_label} after one day. If you defeat the {LEADER_label}, it will set the spirit to rest and drop the following items:\n\n{REWARDSLIST}</LetterBossgroupCallerLesserWyrmUnlocked>
+
+</LanguageData>

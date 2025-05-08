@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "dmmoXzwNl1s=",
+  "success": true,
+  "projectFilePath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\RENNEFAX MOD WIP\\RennefaxMod\\RennefaxLib\\GreatHouseRennefax.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mrdov\\.nuget\\packages\\krafs.rimworld.ref\\1.5.4243\\krafs.rimworld.ref.1.5.4243.nupkg.sha512"
+  ],
+  "logs": []
+}
